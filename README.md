@@ -13,7 +13,14 @@ This application uses **MySQL** database to store and manage student examination
 ## Database Setup
 
 ### 1. Install MySQL Server
-If you haven''t already, download and install MySQL Server from [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
+
+You dont need to install the MySQL Server database if you are using your Virtual Labs. This step is optional for those who want to run this on their own laptop
+
+If you haven''t already, download and install MySQL Server from [https://dev.mysql.com/downloads/installer/](https://dev.mysql.com/downloads/installer/)
+
+Download MySQL Workbench as well
+
+[https://dev.mysql.com/downloads/workbench/](https://dev.mysql.com/downloads/workbench/)
 
 During installation, remember your:
 - **Root username** (usually `root`)
