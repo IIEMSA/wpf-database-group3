@@ -91,7 +91,7 @@ namespace ExamsData
                 MessageBox.Show("Mark added successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
                 ClearForm();
                 LoadMarks();
-                UpdateStatistics();
+               
             }
             catch (Exception ex)
             {
@@ -143,7 +143,7 @@ namespace ExamsData
                 MessageBox.Show("Mark updated successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
                 ClearForm();
                 LoadMarks();
-                UpdateStatistics();
+               
             }
             catch (Exception ex)
             {
@@ -173,7 +173,7 @@ namespace ExamsData
                     MessageBox.Show("Mark deleted successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
                     ClearForm();
                     LoadMarks();
-                    UpdateStatistics();
+                   
                 }
             }
             catch (Exception ex)
@@ -190,7 +190,7 @@ namespace ExamsData
         private void btnRefresh_Click(object sender, RoutedEventArgs e)
         {
             LoadMarks();
-            UpdateStatistics();
+           
             ClearForm();
             MessageBox.Show("Data refreshed successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
         }
